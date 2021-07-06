@@ -4,20 +4,17 @@ body {
 }
 .top-container {
     display: flex;
+    margin-bottom: 150px;
 }
-.top-section-div-1 {
+.section-div {
     width: 50%;
-    margin: 50px 150px;
+    margin: 0px 150px;
 }
-.top-section-div-2 {
-    width: 50%;
-    margin: 20px 150px;
-}
-.top-section-div-1 h1 {
+.section-div h1 {
     font-size: 50px;
     margin: 50px 1px 0px 1px;
 }
-.top-section-div-1 p {
+.section-div p {
     margin-bottom: 50px;
 }
 .skip {
@@ -33,4 +30,19 @@ body {
 }
       /* top-section-css-complete */
 
-      
+.middle-container {
+    display: flex;
+    background-image: url(../images/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-girl-pic {
+    width: 4in;
+    padding: 60px 0px 0px 120px;
+}
+.about-div {
+    width: 40%;
+    padding-top: 10%;
+}
+    /* middle-section-css-complate */
+
