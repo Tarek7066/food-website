@@ -28,7 +28,10 @@ body {
     box-shadow: 1px 1px 1px orange;
     text-decoration: none;
 }
+
+
       /* top-section-css-complete */
+      
 
 .middle-container {
     display: flex;
@@ -44,5 +47,74 @@ body {
     width: 40%;
     padding-top: 10%;
 }
+
+
     /* middle-section-css-complate */
 
+
+.Recipies {
+    font-size: 20px;
+    text-align: center;
+    margin: 50px;
+}
+.flax {
+    display: flex;
+    width: 60%;
+    padding-top: 30px;
+    margin-left: 20%;
+}
+.Rec-container img {
+    width: 95%;
+    padding: 10px 7.5px;
+}
+.Rec-container h2 {
+    padding-left: 10px;
+}
+.Rec-container p {
+    padding-left: 10px;
+}
+.Rec-container {
+    box-shadow: 5px 4px 10px gray;
+    border-radius: 25px;
+    margin: 50px 30px;
+}
+
+ /* social media css section  */
+.social-media {
+    margin: 0px 10px 0px 500px;
+    margin-bottom: 100px;
+}
+.social {
+    width: 60%;
+    height: 10%;
+    margin: 50px 40px 0px 20px;
+    padding: 50px;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 20px;
+}
+.social h1 {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+.social p {
+    display: inline;
+}
+ 
+ /* footer section css */
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 60px;
+}
+footer span {
+    color: orange;
+}
+footer h1 {
+    color: gray;
+}
+footer p {
+    color: white;
+}
+
+ /* complate */
